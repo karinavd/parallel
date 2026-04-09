@@ -6,8 +6,8 @@ namespace ThreadMinSharp
 {
     class Program
     {
-        private static readonly int dim = 100000000;
-        private static readonly int threadNum = 3;
+        private static readonly int dim = 1000000000;
+        private static readonly int threadNum = 10;
         static void Main(string[] args)
         {
             Console.WriteLine();

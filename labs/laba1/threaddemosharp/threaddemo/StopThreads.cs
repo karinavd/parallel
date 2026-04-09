@@ -5,7 +5,11 @@ namespace threaddemo
    public class StopThread
     {
         private readonly List<(ThreadClass thread, int delay)> threadsList = [];
-        public void AddThread(ThreadClass thread)=> threadsList.Add((thread, new Random().Next(3000,30000)));
+        public void AddThread(ThreadClass thread){
+            int delay = new Random().Next(1000,10000);
+             threadsList.Add((thread, delay));
+            thread.setDelay(delay);
+             }
         public void Stopper()
         {
             new Thread(() =>

@@ -15,7 +15,9 @@ class StopThread {
 
     private final List<ThreadItem> threadsList = new ArrayList<>();
     public void addThread(ThreadClass thread) {
-        threadsList.add(new ThreadItem(thread,  new Random().nextInt(9000) + 1000));
+        int delay = new Random().nextInt(9000) + 1000;
+        thread.setDelay(delay);
+        threadsList.add(new ThreadItem(thread,  delay));
     }
 
     public void startStopper() {

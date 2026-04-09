@@ -1,0 +1,15 @@
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\bin\Debug\net10.0\laba3_sharp.exe
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\bin\Debug\net10.0\laba3_sharp.deps.json
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\bin\Debug\net10.0\laba3_sharp.runtimeconfig.json
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\bin\Debug\net10.0\laba3_sharp.dll
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\bin\Debug\net10.0\laba3_sharp.pdb
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.AssemblyInfoInputs.cache
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.AssemblyInfo.cs
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.csproj.CoreCompileInputs.cache
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.sourcelink.json
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.dll
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\refint\laba3_sharp.dll
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.pdb
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\laba3_sharp.genruntimeconfig.cache
+D:\parallelComputing\labs\laba3\laba3_sharp\laba3_sharp\obj\Debug\net10.0\ref\laba3_sharp.dll

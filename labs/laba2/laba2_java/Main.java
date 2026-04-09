@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int dim = 100000000;
+        int dim = 1000000000;
         int threadNum = 3;
 
         System.out.println("The number of elements: " + dim);

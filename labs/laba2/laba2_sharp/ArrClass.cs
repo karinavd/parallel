@@ -6,8 +6,8 @@ public class ArrClass
         private static int threadCount = 0;
         private  readonly Thread[] thread;
         private  readonly int[] arr;   
-        private static readonly object lockerForMin = new object();
-        private static readonly object lockerForCount = new object();
+        private  readonly object lockerForMin = new object();
+        private  readonly object lockerForCount = new object();
         public long Min { get; private set; } = long.MaxValue;
         public int MinIndex { get; private set; } = -1;
 
@@ -65,7 +65,7 @@ public class ArrClass
             }
         }
 
-        private static void IncThreadCount()
+        private  void IncThreadCount()
         {
             lock (lockerForCount)
             {

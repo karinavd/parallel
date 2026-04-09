@@ -3,23 +3,27 @@ package com.company;
 class ThreadClass {
     private final Thread thread;
     private int id;
+    private int step;
     private volatile boolean canStop = false;
-
-    public ThreadClass(int id) {
+private int delay;
+    public ThreadClass(int id,int step) {
         this.id = id;
+        this.step = step;
         this.thread = new Thread(() -> this.calculator());
     }
-
+public void setDelay(int delay){
+    this.delay = delay;
+}
     private void calculator() {
         long sum = 0;
         long count = 0;
         
         do {
             count++;
-            sum += 2;
+            sum += step;
         } while (!canStop);
         
-        System.out.println("Thread index: " + id + "; Sum: " + sum + "; Amount of elements: " + count);
+        System.out.println("Thread index: " + id + "; Sum: " + sum + "; Amount of elements: " + count+" Assigned delay:" + delay );
     }
 
     public void stop() {
